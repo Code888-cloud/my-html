@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service Representative - Australia Workforce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .job-description {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .calendar {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .apply-link {
+            text-decoration: none;
+            background-color: #0077b5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .apply-link:hover {
+            background-color: #005f8d;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+        }
+        button {
+            background-color: #27ae60;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1e8449;
+        }
+        #selectedDateTime {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Customer Service Representative - Remote Job (Australia Workforce)</h1>
+
+    <div class="job-description">
+        <h2>Job Description</h2>
+        <p>Australia Workforce is hiring a Customer Service Representative for a remote position. Join our team to provide excellent customer service and resolve client inquiries effectively.</p>
+        <ul>
+            <li>Work remotely from Australia or nearby time zones.</li>
+            <li>Handle customer inquiries via phone, email, and chat.</li>
+            <li>Provide resolutions with a focus on customer satisfaction.</li>
+            <li>Flexible hours with full-time availability required.</li>
+        </ul>
+    </div>
+
+    <div class="calendar">
+        <h2>Schedule Your Application</h2>
+        <div class="form-group">
+            <label for="applicationDate">Select Date:</label>
+            <input type="date" id="applicationDate" name="applicationDate">
+        </div>
+        <div class="form-group">
+            <label for="applicationTime">Select Time:</label>
+            <input type="time" id="applicationTime" name="applicationTime">
+        </div>
+        <button onclick="showSelectedDateTime()">Confirm Application Schedule</button>
+        <p id="selectedDateTime"></p>
+    </div>
+
+    <a href="https://www.australiaworkforce.com/jobs/customer-service-representative-remote" target="_blank" class="apply-link">
+        Apply
